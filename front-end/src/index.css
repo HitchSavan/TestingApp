@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  @font-face {
+    font-family: 'Igra Sans';
+    src: local('Igra Sans'), local('IgraSans'), url(./fonts/Igrasans.woff2) format('woff2'), url(./fonts/Igrasans.woff) format('woff'), url(./fonts/Igrasans.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  @font-face {
+    font-family: 'Igra Sans';
+    src: local('Igra Sans'), local('IgraSans'), url(./fonts/Igrasans.woff2) format('woff2'), url(./fonts/Igrasans.woff) format('woff'), url(./fonts/Igrasans.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+}
